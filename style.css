@@ -1,1 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0vw 12vw;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 24);
+}
 
+.header {
+    padding: 18px 10vw;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+
+.hero-section{
+    padding: 6vw 10vw;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: stretch;
+    gap:48px;
+}
+
+.hero-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 440px;
+    gap: 12px;
+}
+
+.hero-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 6px 18px;
+    border-radius: 4px;
+}
+
+.hero-btn{
+    border-style: none;
+}
+
+.hero-section-image {
+    background-color: rgba(255, 255, 255,0.3);
+    color: #F9FAF8;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-section{
+    padding: 48px 16vw 108px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    gap:48px;
+}
+
+.info-section-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 600;
+}
+
+.card-container{
+   display: flex;
+   gap: 48px;
+}
+
+.card{
+    color: #5a5a5c;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.card-image{
+    min-width: 112px;
+    min-height: 172px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.thought-section{
+    padding: 136px 17vw 78px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    gap:24px;
+}
+
+.thought-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: "Roboto";
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thought-speaker{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.prompt-section{
+    padding: 84px 12vw;
+    background-color: #ffffff;
+    gap:24px;
+}
+
+.prompt-box{
+    padding: 48px 108px;
+    background-color:#3882F6;
+    color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prompt-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 4px;
+}
+
+.prompt-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.prompt-btn{
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.footer{
+    padding: 36px 17vw;
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
